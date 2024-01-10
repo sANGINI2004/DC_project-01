@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:layout_marginTop="100dp">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Data Input"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:textAlignment="center"
+        android:layout_marginBottom="80dp"
+        android:textColor="#D81111"/>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="2dp"
+        android:text="0.5 second"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="Angular Velocity"
+            android:layout_weight="1"
+            android:layout_marginBottom="20dp" />
+
+        <EditText
+            android:layout_marginBottom="20dp"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:id="@+id/alpha1"
+            android:text="Alpha"/>
+
+        <EditText
+            android:layout_marginBottom="20dp"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:id="@+id/beta1"
+            android:text=" Beta "/>
+
+        <EditText
+            android:layout_marginBottom="20dp"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:id="@+id/gamma1"
+            android:text="Gamma"/>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:text="1.0 second"
+        android:layout_marginBottom="2dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="Angular Velocity"
+            android:layout_weight="1"
+            android:layout_marginBottom="20dp"/>
+
+        <EditText
+            android:layout_marginBottom="20dp"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:id="@+id/alpha2"
+            android:text="Alpha"/>
+
+        <EditText
+            android:layout_marginBottom="20dp"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:id="@+id/beta2"
+            android:text=" Beta "/>
+
+        <EditText
+            android:layout_marginBottom="20dp"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:id="@+id/gamma2"
+            android:text="Gamma"/>
+
+
+    </LinearLayout>
+
+
+    <TextView
+        android:text="1.5 second"
+        android:layout_marginBottom="2dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="Angular Velocity"
+            android:layout_weight="1"
+            android:layout_marginBottom="20dp"/>
+
+        <EditText
+            android:layout_marginBottom="20dp"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:id="@+id/alpha3"
+            android:text="Alpha"/>
+
+        <EditText
+            android:layout_marginBottom="20dp"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:id="@+id/beta3"
+            android:layout_height="50dp"
+            android:text=" Beta "/>
+
+        <EditText
+            android:layout_marginBottom="20dp"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:id="@+id/gamma3"
+            android:text="Gamma"/>
+
+
+    </LinearLayout>
+
+
+    <TextView
+        android:text="2.0 second"
+        android:layout_marginBottom="2dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="Angular Velocity"
+            android:layout_weight="1"
+            android:layout_marginBottom="20dp"/>
+
+        <EditText
+            android:layout_marginBottom="20dp"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:id="@+id/alpha4"
+            android:text="Alpha"/>
+
+        <EditText
+            android:layout_marginBottom="20dp"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:id="@+id/beta4"
+            android:text=" Beta "/>
+
+        <EditText
+            android:layout_marginBottom="20dp"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:id="@+id/gamma4"
+            android:text="Gamma"/>
+
+
+    </LinearLayout>
+
+
+    <TextView
+        android:text="2.5 second"
+        android:layout_marginBottom="2dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="Angular Velocity"
+            android:layout_weight="1"
+            android:layout_marginBottom="20dp"/>
+
+        <EditText
+            android:layout_marginBottom="20dp"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:id="@+id/alpha5"
+            android:text="Alpha"/>
+
+        <EditText
+            android:layout_marginBottom="20dp"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:id="@+id/beta5"
+            android:text=" Beta "/>
+
+        <EditText
+            android:layout_marginBottom="20dp"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:id="@+id/gamma5"
+            android:text="Gamma"/>
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
